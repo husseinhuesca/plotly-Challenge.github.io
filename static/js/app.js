@@ -93,7 +93,6 @@ function infobacteria(id) {
             type: 'indicator',
             mode: 'gauge+number',
             title: {text: `<span style='font-size:0.8em; color:#00008B'><b>Belly Button Washing Frequency</span>`},
-            subtitle: {text: `Scrubs per week`},
             domain: {x: [0,5],y: [0,1]},
             value: bacfilter[0].wfreq,
             gauge: {
