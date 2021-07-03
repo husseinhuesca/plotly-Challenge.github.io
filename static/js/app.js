@@ -91,7 +91,7 @@ function infobacteria(id) {
         // Gauge Chart 
         var Gaugechart = {
             type: 'indicator',
-            mode: 'gauge+number',
+            mode: 'gauge',
             title: {text: `<span style='font-size:0.8em; color:#00008B'><b>Belly Button Washing Frequency</span>`},
             domain: {x: [0,5],y: [0,1]},
             value: bacfilter[0].wfreq,
