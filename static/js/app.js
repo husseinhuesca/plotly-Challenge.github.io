@@ -108,8 +108,7 @@ function infobacteria(id) {
                     {range: [5,6], color: '#ADD8E6'},
                     {range: [6,7], color: '#B0C4DE'},
                     {range: [7,8], color: '#ADD8E6'},
-                    {range: [8,9], color: '#B0C4DE'},
-                    {range: [9,10], color: '#ADD8E6'}
+                    {range: [8,9], color: '#B0C4DE'}
                 ],
                 threshold: {
                     line: {color: '#663399', width: 4},
